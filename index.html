@@ -44,14 +44,28 @@
                 <button class="header_shop-btn">
                     <img src="./src/assets/svg/header_shop.svg" alt="header_shop" width="20" height="20">
                 </button>
-                <button class="header_login-btn">Kirish</button>
+                <button class="header_login-btn" onclick="HeaderLogin()">Kirish</button>
             </div>
+            <div class="header_login-box">
+                <button onclick="HeaderCloseModal()">
+                    <img src="./headerCloseModal.svg" alt="headerCloseModal" width="14" height="14">
+                </button>
+                <h2 class="header_login-title">Hisobga kirish uchun </h2>
+                <button>Kirish</button>
+                <p>Yoki</p>
+                <button>Ro’yxatdan o’tish</button>
+            </div>
+
+            <div class="rezult" onclick="HeaderCloseModal()"></div>
         </div>
     </header>
+
+
 
     <!------------------------------ HEADER END ------------------------------>
 
 
+    <script src="./src/js/header.js"></script>
     <script src="./src/js/script.js"></script>
 
 </body>
