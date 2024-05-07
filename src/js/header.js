@@ -1,3 +1,5 @@
+"use strict";
+
 const body = document.body;
 const elHeaderLoginBox = document.querySelector('.header_login-box');
 const elHeaderRezult = document.querySelector('.rezult');
