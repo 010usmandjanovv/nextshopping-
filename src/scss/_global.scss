@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 ul {
@@ -26,8 +26,7 @@ span {
 }
 
 button {
-    display: inline-block;
+    border: none;
     background: transparent;
     cursor: pointer;
-    border: none;
 }
