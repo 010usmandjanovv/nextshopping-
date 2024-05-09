@@ -1,0 +1,41 @@
+.main {
+    background: rgb(173, 216, 230);
+}
+.hero {
+    .hero-title {
+        padding-top: 15px;
+        font-size: 25px;
+        font-weight: 500;
+        line-height: 130%;
+        color: #1e1e1e;
+        margin-bottom: 15px;
+    }
+    .hero-list {
+        display: flex;
+        gap: 20px;
+        padding-bottom: 20px;
+    }
+    .hero-item {
+        text-align: center;
+        width: 140px;
+        height: 200px;
+        border-radius: 8px;
+        background: #fff;
+        padding: 9px 0;
+    }
+    .item-title {
+        font-size: 15px;
+        font-weight: 500;
+        color: #1e1e1e;
+    }
+    .hero-btn {
+        width: 100%;
+        height: 40px;
+        border-radius: 10px;
+        background: #fff;
+        margin-bottom: 20px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+    }
+}

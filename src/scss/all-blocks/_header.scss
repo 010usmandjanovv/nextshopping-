@@ -9,12 +9,13 @@
 .header_top {
     position: absolute;
     top: 0;
-    right: 0;
+    right: 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 395px;
     height: 25px;
+    margin-bottom: 30px;
 }
 .header_top-link {
     font-size: 16px;
@@ -29,6 +30,7 @@
     text-transform: uppercase;
 }
 .header_box {
+    margin-top: 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -67,5 +69,25 @@
     right: 100px;
     border-radius: 0 5px 5px 0;
     background: dodgerblue;
+}
+.header_heart-btn {
+    width: 46px;
+    height: 46px;
+    border-radius: 10px;
+    background: #ecf4ff;
+}
+.header_shop-btn {
+    width: 46px;
+    height: 46px;
+    border-radius: 10px;
+    background: #ecf4ff;
+}
+.header_login-btn {
+    padding: 13px 30px;
+    background: linear-gradient(270deg, rgba(77, 94, 246, 0.2) 0%, rgba(246, 77, 77, 0.2) 100%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 10px;
 }
 //===================================== HEADER END =====================================//

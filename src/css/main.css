@@ -48,12 +48,13 @@ button {
 .header_top {
   position: absolute;
   top: 0;
-  right: 0;
+  right: 200px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 395px;
   height: 25px;
+  margin-bottom: 30px;
 }
 
 .header_top-link {
@@ -71,6 +72,7 @@ button {
 }
 
 .header_box {
+  margin-top: 20px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -90,7 +92,6 @@ button {
   text-transform: uppercase;
 }
 
-<<<<<<< HEAD
 .header_inputs {
   position: relative;
   width: 400px;
@@ -114,7 +115,72 @@ button {
   right: 100px;
   border-radius: 0 5px 5px 0;
   background: dodgerblue;
-=======
+}
+
+.header_heart-btn {
+  width: 46px;
+  height: 46px;
+  border-radius: 10px;
+  background: #ecf4ff;
+}
+
+.header_shop-btn {
+  width: 46px;
+  height: 46px;
+  border-radius: 10px;
+  background: #ecf4ff;
+}
+
+.header_login-btn {
+  padding: 13px 30px;
+  background: linear-gradient(270deg, rgba(77, 94, 246, 0.2) 0%, rgba(246, 77, 77, 0.2) 100%);
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+.main {
+  background: rgb(173, 216, 230);
+}
+
+.hero .hero-title {
+  padding-top: 15px;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 130%;
+  color: #1e1e1e;
+  margin-bottom: 15px;
+}
+.hero .hero-list {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+.hero .hero-item {
+  text-align: center;
+  width: 140px;
+  height: 200px;
+  border-radius: 8px;
+  background: #fff;
+  padding: 9px 0;
+}
+.hero .item-title {
+  font-size: 15px;
+  font-weight: 500;
+  color: #1e1e1e;
+}
+.hero .hero-btn {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  background: #fff;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
 .footer {
   display: flex;
   justify-content: space-between;
@@ -234,5 +300,4 @@ button {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
->>>>>>> c09165096c0f854881955d007a78f0d1e7ce8db5
 }/*# sourceMappingURL=main.css.map */
