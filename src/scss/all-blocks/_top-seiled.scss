@@ -1,0 +1,15 @@
+#top-seiled-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.list-item {
+    overflow: hidden;
+    width: 230px;
+    height: 390px;
+}
+.item-img {
+    background-color: transparent;
+}
+.item-product-name {
+    width: 200px;
+}
