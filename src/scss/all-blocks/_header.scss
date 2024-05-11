@@ -7,9 +7,6 @@
 	box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.12);
 }
 .header_top {
-	position: absolute;
-	top: 0;
-	right: 200px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -32,7 +29,7 @@
 .header_box {
 	margin-top: 20px;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 }
 .header_btn-menu {

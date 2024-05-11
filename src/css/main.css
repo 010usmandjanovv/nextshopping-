@@ -46,9 +46,6 @@ button {
 }
 
 .header_top {
-  position: absolute;
-  top: 0;
-  right: 200px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -74,7 +71,7 @@ button {
 .header_box {
   margin-top: 20px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -158,9 +155,10 @@ button {
   margin-bottom: 15px;
 }
 .hero .hero-list {
-  display: flex;
-  gap: 20px;
-  padding-bottom: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 25px;
 }
 .hero .hero-item {
   text-align: center;
